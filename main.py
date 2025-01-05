@@ -15,13 +15,25 @@ def approval():
 def raj_logo():
     """Display the logo and clear the screen after displaying it."""
     logo = r"""
-   
+ 
+ .S_sSSs      sSSs_sSSs     .S    S.    .S  sdSS_SSSSSSbs  
+.SS~YS%%b    d%%SP~YS%%b   .SS    SS.  .SS  YSSS~S%SSSSSP  
+S%S   `S%b  d%S'     `S%b  S%S    S%S  S%S       S%S       
+S%S    S%S  S%S       S%S  S%S    S%S  S%S       S%S       
+S%S    d*S  S&S       S&S  S%S SSSS%S  S&S       S&S       
+S&S   .S*S  S&S       S&S  S&S  SSS&S  S&S       S&S       
+S&S_sdSSS   S&S       S&S  S&S    S&S  S&S       S&S       
+S&S~YSY%b   S&S       S&S  S&S    S&S  S&S       S&S       
+S*S   `S%b  S*b       d*S  S*S    S*S  S*S       S*S       
+S*S    S%S  S*S.     .S*S  S*S    S*S  S*S       S*S       
+S*S    S&S   SSSbs_sdSSS   S*S    S*S  S*S       S*S       
+S*S    SSS    YSSP~YSSY    SSS    S*S  S*S       S*S       
+SP                                SP   SP        SP        
+Y                                 Y    Y         Y         
+                                                           
+  
                                            
-,------.  ,-----. ,--.  ,--.,--.,--------. 
-|  .--. ''  .-.  '|  '--'  ||  |'--.  .--' 
-|  '--'.'|  | |  ||  .--.  ||  |   |  |    
-|  |\  \ '  '-'  '|  |  |  ||  |   |  |    
-`--' '--' `-----' `--'  `--'`--'   `--'    
+
                                            
 
     """.format(Fore.YELLOW, Fore.GREEN, Fore.CYAN, Fore.MAGENTA, Fore.BLUE, Fore.WHITE)
